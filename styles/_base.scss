@@ -21,6 +21,10 @@ input{
   border: none;
   text-decoration: none;
 }
+button{
+  text-decoration: none;
+  border: none;
+}
 h2{
   font-weight: 300;
   font-size: 32px;
@@ -35,4 +39,13 @@ h2{
   font-size: 16px;
   line-height: 19px;
   color: #262626;
+  white-space: nowrap;
+}
+.button{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #FFFFFF;
+  background: #3E3B3B;
 }

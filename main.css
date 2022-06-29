@@ -25,6 +25,11 @@ input {
   text-decoration: none;
 }
 
+button {
+  text-decoration: none;
+  border: none;
+}
+
 h2 {
   font-weight: 300;
   font-size: 32px;
@@ -41,6 +46,16 @@ h2 {
   font-size: 16px;
   line-height: 19px;
   color: #262626;
+  white-space: nowrap;
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #FFFFFF;
+  background: #3E3B3B;
 }
 
 .header {
@@ -79,9 +94,10 @@ h2 {
 }
 .header__set-search {
   font-weight: 200;
+  color: #7D7D7D;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #262626;
+  border-bottom: 0.5px solid #7D7D7D;
 }
 .header__set-language {
   display: flex;
@@ -97,7 +113,7 @@ h2 {
 .header__line {
   height: 1px;
   width: 100%;
-  background: #262626;
+  background: #7D7D7D;
 }
 .header__link {
   margin-left: 63px;
@@ -124,6 +140,96 @@ h2 {
 .main__content a {
   color: #FFFFFF;
   text-decoration: underline;
+}
+
+.footer {
+  padding: 59px 106px 40px;
+  background: #F3F3F3;
+}
+.footer__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.footer__info-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+}
+.footer__info-logo-social {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+.footer__info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer__catalog {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer__news {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer__information {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer__notification {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.footer__notification-search {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #7D7D7D;
+}
+.footer__notification-search input {
+  background: inherit;
+}
+.footer__notification-link {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer__notification-link a {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #262626;
+  text-decoration: underline;
+}
+.footer__title {
+  margin-bottom: 14px;
+}
+.footer__button {
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+}
+.logo-red {
+  color: red;
 }
 
 /*# sourceMappingURL=main.css.map */

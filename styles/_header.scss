@@ -1,5 +1,6 @@
 @use "variables";
 
+
 .header{
   padding: 14px 37px;
   font-weight: 500;
@@ -29,9 +30,10 @@
     max-height: 26px;
     &-search{
       font-weight: 200;
+      color: #7D7D7D;
       display: flex;
       align-items: center;
-      border-bottom: 1px solid #262626;
+      border-bottom: 0.5px solid #7D7D7D;
     }
     &-language{
       @include variables.flex-row;
@@ -46,7 +48,7 @@
   &__line{
     height: 1px;
     width: 100%;
-    background: #262626;
+    background: #7D7D7D;
   }
   &__link{
     margin-left: 63px;

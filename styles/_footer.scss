@@ -1,0 +1,68 @@
+@use "variables";
+
+.footer{
+  padding: 59px 106px 40px;
+  background: #F3F3F3;
+  &__wrapper{
+    @include variables.flex-row;
+    justify-content: space-between;
+  }
+  &__info{
+    @include variables.flex-column;
+    gap: 50px;
+    &-logo{
+      @include variables.flex-column;
+      gap: 14px;
+      align-items: center;
+      &-social{
+        @include variables.flex-row;
+        gap: 18px;
+      }
+    }
+    &-content{
+      @include variables.flex-column;
+      gap: 30px;
+    }
+  }
+  &__catalog{
+    @include variables.flex-column;
+    gap: 15px;
+  }
+  &__news{
+    @include variables.flex-column;
+    gap: 15px;
+  }
+  &__information{
+    @include variables.flex-column;
+    gap: 15px;
+  }
+  &__notification{
+    @include variables.flex-column;
+    gap: 40px;
+    &-search{
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #7D7D7D;
+      & input{
+        background: inherit;
+      }
+    }
+    &-link{
+      @include variables.flex-column;
+      gap: 15px;
+      & a{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #262626;
+        text-decoration: underline;
+      }
+    }
+  }
+  &__title{
+    margin-bottom: 14px;
+  }
+  &__button{
+    padding: 10px;
+  }
+}
