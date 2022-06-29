@@ -1,0 +1,57 @@
+@use "variables";
+
+.header{
+  padding: 14px 37px;
+  font-weight: 500;
+  &__wrapper{
+    @include variables.flex-column;
+    gap: 14px;
+  }
+  &__main{
+    margin-left: 63px;
+    margin-right: 84px;
+    @include variables.flex-row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__gender{
+    @include variables.flex-row;
+    gap: 31px;
+    &-element{
+      @include variables.flex-row;
+      gap: 5px;
+      align-items: center;
+    }
+  }
+  &__set{
+    @include variables.flex-row;
+    gap: 30px;
+    max-height: 26px;
+    &-search{
+      font-weight: 200;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #262626;
+    }
+    &-language{
+      @include variables.flex-row;
+      gap: 5px;
+      align-items: center;
+    }
+    &-function{
+      @include variables.flex-row;
+      gap: 20px;
+    }
+  }
+  &__line{
+    height: 1px;
+    width: 100%;
+    background: #262626;
+  }
+  &__link{
+    margin-left: 63px;
+    margin-right: 84px;
+    @include variables.flex-row;
+    justify-content: space-between;
+  }
+}

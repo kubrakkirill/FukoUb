@@ -1,0 +1,21 @@
+@use "./base";
+@use "./variables";
+
+.main{
+  background-image: url("./images/main.png");
+  background-size: cover;
+  &__content{
+    padding: 195px 100px 272px;
+    color: #FFFFFF;
+    & p{
+      font-weight: 600;
+      font-size: 60px;
+      line-height: 70px;
+      margin-bottom: 27px;
+    }
+    & a{
+      color: #FFFFFF;
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.text {
+  font-size: 22px;
+  line-height: 26px;
+  color: #262626;
+}
+
+.text-small {
+  font-size: 16px;
+  line-height: 19px;
+  color: #262626;
+}
+
+.header {
+  padding: 14px 37px;
+  font-weight: 500;
+}
+.header__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.header__main {
+  margin-left: 63px;
+  margin-right: 84px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__gender {
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
+}
+.header__gender-element {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+.header__set {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  max-height: 26px;
+}
+.header__set-search {
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #262626;
+}
+.header__set-language {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+.header__set-function {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.header__line {
+  height: 1px;
+  width: 100%;
+  background: #262626;
+}
+.header__link {
+  margin-left: 63px;
+  margin-right: 84px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main {
+  background-image: url("./images/main.png");
+  background-size: cover;
+}
+.main__content {
+  padding: 195px 100px 272px;
+  color: #FFFFFF;
+}
+.main__content p {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 27px;
+}
+.main__content a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=main.css.map */

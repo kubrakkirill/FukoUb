@@ -1,0 +1,12 @@
+.container{
+  max-width: 1355px;
+  margin: 0 auto;
+  &__small{
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+  &__big{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
